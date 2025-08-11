@@ -1,0 +1,50 @@
+{
+  "max_history": 50,
+  "poll_interval": 1.0,
+  "auto_start_monitoring": true,
+  "save_history_on_exit": true,
+  "detect_duplicates": true,
+  "content_preview_length": 50,
+  "status_message_duration": 3000,
+  "window": {
+    "width": 600,
+    "height": 500,
+    "min_width": 400,
+    "min_height": 300
+  },
+  "columns": {
+    "time": {
+      "width": 120,
+      "min_width": 100,
+      "visible": true
+    },
+    "content": {
+      "width": 300,
+      "min_width": 200,
+      "visible": true
+    },
+    "type": {
+      "width": 80,
+      "min_width": 60,
+      "visible": true
+    }
+  },
+  "content_types": {
+    "url": {
+      "patterns": ["http://", "https://"],
+      "icon": "🔗"
+    },
+    "number": {
+      "patterns": ["^\\d+$"],
+      "icon": "🔢"
+    },
+    "multi_line": {
+      "patterns": ["\\n.*\\n"],
+      "icon": "📝"
+    },
+    "text": {
+      "patterns": [".*"],
+      "icon": "📄"
+    }
+  }
+}
