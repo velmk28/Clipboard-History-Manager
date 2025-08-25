@@ -10,6 +10,7 @@ import subprocess
 import tkinter as tk
 from tkinter import messagebox
 
+
 def check_dependencies():
     """Check if all required dependencies are available"""
     missing_deps = []
@@ -49,6 +50,7 @@ def main():
     print("=" * 50)
     print("📋 Clipboard History Manager Launcher")
     print("=" * 50)
+    
     
     # Check dependencies
     missing_deps = check_dependencies()

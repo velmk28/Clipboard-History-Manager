@@ -97,6 +97,7 @@ def interactive_demo():
             break
         except Exception as e:
             print(f"Error: {e}")
+            
 
 def main():
     """Main demo function"""
@@ -115,6 +116,7 @@ def main():
     print("1. Automatic demo (copy various items automatically)")
     print("2. Interactive demo (you control the clipboard)")
     print("3. Exit")
+    
     
     while True:
         try:
@@ -137,6 +139,7 @@ def main():
             break
         except Exception as e:
             print(f"Error: {e}")
+            
 
 if __name__ == "__main__":
     main()
