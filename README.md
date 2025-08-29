@@ -27,6 +27,17 @@ Smartly detects content types (URLs, numbers, multiline text)
 
 Customizable & clean UI with pause, clear, and settings
 
+⚡ Installation
+Clone the repo
+git clone https://github.com/your-username/clipboard-history-manager.git
+cd clipboard-history-manager
+
+Install dependencies
+npm install
+
+Run the app
+npm start
+
 💡 What Makes It Unique
 
 Not just a clipboard logger → It’s a clipboard companion
