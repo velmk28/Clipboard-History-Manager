@@ -38,6 +38,16 @@ npm install
 Run the app
 npm start
 
+🛠️ Tech Stack
+
+Frontend/UI: Electron + React + TailwindCSS
+
+Backend: Node.js
+
+Database: SQLite / NeDB (lightweight storage)
+
+Packaging: Electron Builder
+
 💡 What Makes It Unique
 
 Not just a clipboard logger → It’s a clipboard companion
